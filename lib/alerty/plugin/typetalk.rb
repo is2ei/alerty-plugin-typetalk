@@ -21,7 +21,6 @@ class Alerty
 
       def post_message(msg)
         uri = URI("https://typetalk.com/api/v1/topics/#{@topic_id}")
-        p uri
         body = { message: msg }.to_json
         post(uri, body)
       end
@@ -33,7 +32,6 @@ class Alerty
         req.body = body
         Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
           res = http.request(req)
-          p res
         end
       end
 
