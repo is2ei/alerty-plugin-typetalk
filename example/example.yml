@@ -1,0 +1,7 @@
+log_path: STDOUT
+log_level: debug
+plugins:
+  - type: typetalk
+    token: xxxxxxxxxxxxxxxxxxxx
+    topic_id: 12345
+    template: "FAILURE: [${hostname}] ${command}\n${output}"

@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    alerty-plugin-typetalk (0.1.0)
+      alerty
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    alerty (0.4.0)
+      dotenv
+      frontkick (>= 0.5.5)
+      hashie
+      oneline_log_formatter
+    dotenv (2.6.0)
+    frontkick (0.5.7)
+    hashie (3.6.0)
+    oneline_log_formatter (0.0.2)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  alerty-plugin-typetalk!
+  bundler (~> 2.0)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   2.0.1
