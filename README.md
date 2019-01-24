@@ -21,10 +21,10 @@ $ gem install alerty-plugin-slack
 
 ## Placeholders
 
-`${hostname}`: hostname which rans the command
-`${command}`: a given command
-`${exitstatus}`: exitstatus of the executed command
-`${output}`: output of the executed command
+`${hostname}`: hostname which rans the command  
+`${command}`: a given command  
+`${exitstatus}`: exitstatus of the executed command  
+`${output}`: output of the executed command  
 
 ## Example configuration
 
