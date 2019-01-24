@@ -9,6 +9,10 @@ Alerty::Plugin::Typetalk
 $ gem install alerty-plugin-slack
 ```
 
+## Type
+
+`typetalk`
+
 ## Configuration
 
 `token`: Typetalk token  
