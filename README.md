@@ -11,9 +11,9 @@ $ gem install alerty-plugin-slack
 
 ## Configuration
 
-`token`: Typetalk token
-`topic_id`: Typetalk topic id
-`template`: Template text. You can use placeholders listed below.
+`token`: Typetalk token  
+`topic_id`: Typetalk topic id  
+`template`: Template text. You can use placeholders listed below.  
 
 ## Placeholders
 
