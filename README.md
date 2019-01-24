@@ -6,7 +6,7 @@ Alerty::Plugin::Typetalk
 ## Installation
 
 ```
-$ gem install alerty-plugin-slack
+$ gem install alerty-plugin-typetalk
 ```
 
 ## Type
